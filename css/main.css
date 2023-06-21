@@ -142,7 +142,7 @@ header nav ul li a {
 }
 
 .menu-list {
-  padding-left: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -179,5 +179,9 @@ footer span {
 
   .bottom-section h3 {
     margin: 30px 0;
+  }
+
+  .menu-list {
+    padding-left: 0;
   }
 }
