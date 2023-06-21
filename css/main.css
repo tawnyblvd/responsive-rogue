@@ -119,7 +119,7 @@ header nav ul li a {
 .section-two,
 .section-three {
   box-sizing: border-box;
-  padding: 0 40px;
+  padding: 0 40px 0 5px;
   width: 100%;
 }
 
@@ -138,7 +138,7 @@ header nav ul li a {
 } */
 
 .bottom-section h3 {
-  margin: 30px 0;
+  margin: 30px 0 0 0;
 }
 
 .menu-list {
@@ -166,4 +166,18 @@ footer span {
   text-transform: lowercase;
   color: #45610e;
   font-size: 0.875rem;
+}
+
+/* Testing Media Queries */
+
+@media screen and (min-width: 768px) {
+  .section-one,
+  .section-two,
+  .section-three {
+    padding: 0 40px;
+  }
+
+  .bottom-section h3 {
+    margin: 30px 0;
+  }
 }
