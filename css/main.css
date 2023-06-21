@@ -175,6 +175,14 @@ footer span {
   .section-two,
   .section-three {
     padding: 0 40px;
+    width: 33%;
+  }
+
+  .section-two {
+    border-top: 0;
+    border-right: 5px solid #eee;
+    border-bottom: 0;
+    border-left: 5px solid #eee;
   }
 
   .bottom-section h3 {
@@ -183,6 +191,12 @@ footer span {
 
   .menu-list {
     padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content-wrapper {
+    width: 1200px;
   }
 }
 
