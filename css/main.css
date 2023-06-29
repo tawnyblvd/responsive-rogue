@@ -193,15 +193,12 @@ footer span {
     border: 0;
   }
 
-  .section-one {
+  .section-one,
+  .section-three {
     width: 29%;
   }
 
   .section-two {
     width: 42%;
-  }
-
-  .section-three {
-    width: 29%;
   }
 }
