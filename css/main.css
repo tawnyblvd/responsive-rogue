@@ -46,7 +46,6 @@ p {
 }
 
 /******** HEADER STYLES ********/
-/* The widths are in a percentage! */
 header {
   /* height: 110px; */
   display: flex;
@@ -91,7 +90,6 @@ header nav ul li a {
 
 /********  MAIN STYLES ********/
 /******** TOP SECTION ********/
-/* The widths are in a percentage! */
 .main-image img {
   width: 100%;
   border-top: 3px solid #77a466;
@@ -153,7 +151,6 @@ header nav ul li a {
 }
 
 /******** FOOTER STYLES ********/
-/* The widths are in a percentage! */
 footer {
   text-align: center;
   margin-top: 8px;
