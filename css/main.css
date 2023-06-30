@@ -44,7 +44,6 @@ p {
 
 /******** HEADER STYLES ********/
 header {
-  /* height: 110px; */
   display: flex;
   justify-content: center;
   text-align: center;
@@ -205,6 +204,7 @@ footer span {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    gap: 10px;
   }
 
   header nav ul li {
