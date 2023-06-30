@@ -154,12 +154,15 @@ footer span {
 
 /* Media Queries for Tablet and Desktop */
 
-@media screen and (min-width: 768px) {
+@media all and (min-width: 768px) {
+  .bottom-section .content-wrapper {
+    justify-content: space-evenly;
+  }
+
   .section-one,
-  .section-two,
   .section-three {
-    padding: 0 40px;
-    width: 33%;
+    padding: 0 0 0 20px;
+    width: 30%;
   }
 
   .section-two {
@@ -167,10 +170,8 @@ footer span {
     border-right: 5px solid #eee;
     border-bottom: 0;
     border-left: 5px solid #eee;
-  }
-
-  .bottom-section h3 {
-    margin: 30px 0;
+    padding: 0 30px;
+    width: 40%;
   }
 
   .menu-list {
@@ -178,7 +179,7 @@ footer span {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media all and (min-width: 1200px) {
   .content-wrapper {
     width: 1200px;
     max-width: 90%;
